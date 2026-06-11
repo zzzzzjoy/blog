@@ -1,17 +1,10 @@
 # --------------------------------------
-# Hexo Butterfly Theme Configuration
-# If you have any questions, please refer to the documentation
-# Chinese: https://butterfly.js.org/
-# English: https://butterfly.js.org/en/
-# --------------------------------------
-
-# --------------------------------------
 # Navigation Settings
 # --------------------------------------
 
 nav:
   # Navigation bar logo image
-  logo:
+  logo: /imgs/3.jpg
   display_title: true
   display_post_title: true
   # Whether to fix navigation bar
@@ -54,7 +47,7 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /img/2.jpg
 
 avatar:
   img: /imgs/avatar.jpeg
@@ -67,7 +60,7 @@ disable_top_img: false
 default_top_img: /imgs/2.jpg
 
 # The banner image of index page
-index_img: /imgs/t/jpg
+index_img: /imgs/t.jpg
 
 # The banner image of archive page
 archive_img:
@@ -81,7 +74,7 @@ tag_img:
 tag_per_img:
 
 # Note: category page, not categories page
-category_img:
+category_img: /imgs/1.jpg
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
@@ -165,8 +158,7 @@ subtitle:
   # 3 - jinrishici.com
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
-  sub:
-    - 龙场悟道&#44;一步入圣
+  sub: 无人扶我青云志&#44;勾栏听曲近十年
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -264,7 +256,7 @@ footer:
     since: 2025
   # Copyright of theme and framework
   copyright:
-    enable: true
+    enable: false
     version: false
   custom_text:
 
@@ -283,12 +275,12 @@ aside:
   display:
     archive: false
     tag: false
-    category: true
+    category: false
   card_author:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
       link: https://github.com/xxxxxx
@@ -296,7 +288,7 @@ aside:
     enable: false
     content: This is my Blog
   card_recent_post:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 5
     # Sort: date / updated
@@ -310,7 +302,7 @@ aside:
     storage: 10
     avatar: true
   card_categories:
-    enable: true
+    enable: false
     # If set 0 will show all
     limit: 8
     # Choose: none / true / false
@@ -441,9 +433,9 @@ wordcount:
 
 # Busuanzi count for PV / UV in site
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # --------------------------------------
 # Math
